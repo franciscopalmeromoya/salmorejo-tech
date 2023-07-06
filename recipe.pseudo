@@ -1,0 +1,39 @@
+# Ingredients
+set garlic = 0.5        # clove of garlic
+set salt = ?            # mg
+set tomato = 500        # g
+set bread = 2           # kaiserbroodje; stale bread!
+set oliveOil = 200      # mL
+
+# Required functions
+function peeling(tomatoes) do
+    foreach (tomato in tomatoes) {
+        # Peel tomato
+    } 
+    return tomatoes
+end
+
+function blend(food) do
+    # Blend ingredient
+    return food
+end
+
+function add(ingredient) do
+    # Add ingredient to the blender
+end
+
+function enjoy(salmorejo) do
+    # Finally eat the salmorejo
+end
+
+# Step by step
+tomatoes = peeling(tomatoes)
+add(tomatoes)
+food = blend(tomatoes)
+if (tomatoes are completely pureed):
+    add(bread)
+    food = blend([food, bread])
+    add([garlic, salt])
+    salmorejo = blend([food, garlic, salt])
+
+enjoy(salmorejo)
