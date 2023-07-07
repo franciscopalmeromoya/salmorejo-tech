@@ -1,6 +1,6 @@
 # Ingredients
 set garlic = 0.5        # clove of garlic
-set salt = ?            # mg
+set salt = 1            # mg
 set tomato = 500        # g
 set bread = 2           # kaiserbroodje; stale bread!
 set oliveOil = 200      # mL
